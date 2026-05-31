@@ -118,13 +118,13 @@ ul.nav li:last-child {
     padding-top: 40px;
     flex-wrap: wrap;
     height: auto;
-    padding: 10px;
+    padding: 0px;
   }
   
   ul.nav > li {
     flex: 1;
     justify-content: center;
-    padding: 8px 5px;
+    padding: 10px 5px;
     font-size: 14px;
     border-right: none !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -229,7 +229,7 @@ ul.nav .social-links {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 10px;
+  padding: 2px 10px;
 }
 
 /* Social Links Styling */
