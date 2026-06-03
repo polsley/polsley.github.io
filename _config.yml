@@ -5,7 +5,7 @@ plugins: [jekyll-gist]
 future: true
 # Main site settings
 title: "Seth Polsley"
-description: "Dr. Seth Polsley - Assistant Professor of Practice at the University of Nebraska-Lincoln. Teaching and research in intelligent systems and human-computer interaction."
+description: "Dr. Seth Polsley - Assistant Professor of Practice at the University of Nebraska-Lincoln"
 # External link to the personal blog / archive site (sethpolsley.com)
 blog_url: https://sethpolsley.com
 # url: http://gotchacode.com

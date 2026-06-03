@@ -2,6 +2,8 @@
   Global Reset
 ----------------------------------------------------------------------------*/
 
+:root { color-scheme: light dark; }
+
 * {
   padding:0;
   margin:0;
@@ -751,3 +753,92 @@ code.html span.doctype {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 /* @end */
+
+/*----------------------------------------------------------------------------
+  Dark mode (follows the visitor's system setting via prefers-color-scheme)
+----------------------------------------------------------------------------*/
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #15181b;
+    color: #c7ccd1;
+    border-top-color: #2a2f34;
+  }
+
+  a { color: #6bb8f0; }
+  h1 > a { color: #f0f2f4; }
+  h1.words { color: #ff6f63; }
+  h1.link .desc { color: #e8eaec; }
+  h2, h4 { color: #e8eaec; }
+  h3 { color: #c7ccd1; }
+  h3 a, h3 a:visited, h2 a, h2 a:visited,
+  h3 a:hover, h2 a:hover { color: #f0f2f4; }
+
+  hr { color: #3a4046; }
+
+  /* Navigation bar stays its slate color, which already reads well on dark */
+  ul.nav { background-color: #2d3640; }
+
+  /* Listings */
+  .listing .post p.date,
+  p.date { color: #8a929b; }
+  .listing .post .post-summary { color: #aab0b7; }
+  .listing .post.other { color: #aab0b7; }
+  .listing .post h2 a,
+  .listing .post.other h2 a { color: #6bb8f0; }
+  .listing .post .icon { color: #4a5158; }
+  .listing .post .icon:hover { color: #6b7780; }
+  .listing blockquote { border-left-color: #3a4046; }
+
+  p.intro a { color: #9aa1a8; }
+  p.note { color: #9aa1a8; }
+
+  /* Quotes & callouts */
+  blockquote { border-left-color: #3a4046; }
+  blockquote p { color: #9aa1a8; }
+  blockquote strong { color: #6bb8f0; }
+  .callout {
+    background: #1e2329;
+    border-left-color: #6bb8f0;
+  }
+  .sidebar-callout {
+    background: #1e2329;
+    color: #c7ccd1;
+    border-left-color: #ff6f63;
+  }
+
+  /* Tables */
+  table {
+    color: #d7dadd;
+    background: #1a1d21;
+    border-top-color: #2a2f34;
+    border-bottom-color: #2a2f34;
+  }
+  .odd td { background: #20242a; }
+
+  /* Pagination / figures */
+  .pagination {
+    background: #1e2329;
+    border-color: #2a2f34;
+  }
+  .figure small {
+    color: #b5bbc1;
+    background: #2a2f34;
+    text-shadow: none;
+  }
+
+  /* Keep in touch footer block */
+  .keep-in-touch { border-top-color: #2a2f34; }
+  .keep-in-touch p:first-child { border-top-color: transparent; }
+  .keep-in-touch a { color: #6bb8f0; }
+
+  /* Code */
+  pre {
+    color: #d7dadd;
+    background: #181d26;
+    border-bottom-color: #2a2f34;
+  }
+  code {
+    color: #9fc1de;
+    background: #182029;
+  }
+}

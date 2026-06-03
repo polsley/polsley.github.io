@@ -2,7 +2,7 @@
 layout: content
 title: Teaching
 permalink: /teaching/
-description: "Courses, mentoring, and teaching philosophy of Dr. Seth Polsley at the University of Nebraska-Lincoln."
+description: "Seth Polsley - Teaching"
 ---
 
 # Teaching
@@ -12,17 +12,6 @@ Science and Management, my teaching centers on helping students build both stron
 technical foundations and the practical, collaborative skills they need to apply
 computing in the real world.
 
-## Teaching Philosophy
-
-_Coming soon._ A short statement on how I approach the classroom, project-based
-learning, and mentoring.
-
 ## Courses
 
-_Coming soon._ A list of courses I currently teach at UNL, with brief descriptions
-and links to syllabi or materials where available.
-
-## Mentoring
-
-_Coming soon._ Information for students interested in undergraduate research,
-capstone projects, and advising.
+I presently teach a 3-part data science sequence at the Raikes School: RAIK 270, 370, and 371. Together, these comprise the core of data and models, beginning from foundational statistics up to applied machine learning in organizational contexts. I also teach a generative AI course with the School of Computing, as well as other AI-related activities, including acting as the academic advisor for the HuskerAI student interest group.
